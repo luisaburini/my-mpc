@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://dujpso3tdtkxs"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_p4tpp"]
+[ext_resource type="Texture2D" uid="uid://dxwp846le1xgk" path="res://imgs/background.jpg" id="1_ul0td"]
+[ext_resource type="PackedScene" uid="uid://n4f71iwhkgb6" path="res://mpc_button.tscn" id="4_rwkiq"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_p4tpp")
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 1280.0
+offset_bottom = 720.0
+texture = ExtResource("1_ul0td")
+
+[node name="MPCButton5" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(89, 403)
+
+[node name="MPCButton6" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(260, 403)
+
+[node name="MPCButton7" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(450, 404)
+
+[node name="MPCButton8" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(621, 404)
+
+[node name="MPCButton9" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(89, 225)
+
+[node name="MPCButton10" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(260, 225)
+
+[node name="MPCButton11" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(450, 226)
+
+[node name="MPCButton12" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(621, 226)
+
+[node name="MPCButton13" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(89, 59)
+
+[node name="MPCButton14" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(260, 59)
+
+[node name="MPCButton15" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(450, 60)
+
+[node name="MPCButton16" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(621, 60)
+
+[node name="MPCButton1" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(89, 572)
+
+[node name="MPCButton2" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(260, 572)
+
+[node name="MPCButton3" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(450, 573)
+
+[node name="MPCButton4" parent="." instance=ExtResource("4_rwkiq")]
+position = Vector2(621, 573)
