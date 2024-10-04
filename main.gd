@@ -18,3 +18,12 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+
+func _on_button_pressed():
+	var selected = $OptionButton.selected
+	if selected >= 0 and selected <= 15:
+		var id = "MPCButton" + str(selected+1)
+		print(id)
+		var n = get_node(id)
+		n.remove_sound()

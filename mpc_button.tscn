@@ -5,20 +5,42 @@
 [node name="MPCButton" type="Node2D"]
 script = ExtResource("1_q3rxm")
 
+[node name="State" type="Label" parent="."]
+z_index = 110
+offset_top = 35.0
+offset_right = 100.0
+offset_bottom = 135.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="TouchScreenButton" type="TextureButton" parent="."]
 z_index = 100
+offset_top = 35.0
+offset_bottom = 35.0
 
 [node name="Label" type="Label" parent="."]
 offset_left = 4.0
-offset_top = 80.0
+offset_top = 140.0
 offset_right = 66.0
-offset_bottom = 103.0
+offset_bottom = 163.0
 
 [node name="FileDialog" type="FileDialog" parent="."]
 title = "Open a File"
+size = Vector2i(700, 500)
 ok_button_text = "Open"
 file_mode = 0
 access = 2
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[node name="Filename" type="Label" parent="."]
+offset_right = 103.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 10
+
+[connection signal="button_down" from="TouchScreenButton" to="." method="_on_touch_screen_button_button_down"]
 [connection signal="button_up" from="TouchScreenButton" to="." method="_on_touch_screen_button_button_up"]
 [connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="finished" from="AudioStreamPlayer2D" to="." method="_on_audio_stream_player_2d_finished"]
