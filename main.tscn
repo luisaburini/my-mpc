@@ -16,52 +16,52 @@ offset_bottom = 720.0
 texture = ExtResource("1_ul0td")
 
 [node name="MPCButton5" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(85, 395)
+position = Vector2(77, 375)
 
 [node name="MPCButton6" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(256, 395)
+position = Vector2(248, 375)
 
 [node name="MPCButton7" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(446, 396)
+position = Vector2(438, 376)
 
 [node name="MPCButton8" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(617, 396)
+position = Vector2(609, 376)
 
 [node name="MPCButton9" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(85, 217)
+position = Vector2(77, 197)
 
 [node name="MPCButton10" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(256, 217)
+position = Vector2(248, 197)
 
 [node name="MPCButton11" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(446, 218)
+position = Vector2(438, 198)
 
 [node name="MPCButton12" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(617, 218)
+position = Vector2(609, 198)
 
 [node name="MPCButton13" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(85, 51)
+position = Vector2(77, 31)
 
 [node name="MPCButton14" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(256, 51)
+position = Vector2(248, 31)
 
 [node name="MPCButton15" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(446, 52)
+position = Vector2(438, 32)
 
 [node name="MPCButton16" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(617, 52)
+position = Vector2(609, 32)
 
 [node name="MPCButton1" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(85, 564)
+position = Vector2(77, 544)
 
 [node name="MPCButton2" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(256, 564)
+position = Vector2(248, 544)
 
 [node name="MPCButton3" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(446, 565)
+position = Vector2(438, 545)
 
 [node name="MPCButton4" parent="." instance=ExtResource("4_rwkiq")]
-position = Vector2(617, 565)
+position = Vector2(609, 545)
 
 [node name="OptionButton" type="OptionButton" parent="."]
 offset_left = 891.0
